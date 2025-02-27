@@ -9,6 +9,7 @@ import {
   Users, 
   ExternalLink
 } from 'lucide-react';
+import { ProfileImg } from './assets';
 
 function App() {
   const [activeSection, setActiveSection] = useState('about');
@@ -73,7 +74,7 @@ function App() {
             <div className="md:w-1/3 mt-10 md:mt-0 flex justify-center">
               <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-50 shadow-lg">
                 <img 
-                  src="src/assets/ujashpatel.jpg" 
+                  src={ProfileImg}
                   alt="Ujash Patel" 
                   className="w-full h-full object-cover"
                 />
