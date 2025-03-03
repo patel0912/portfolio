@@ -26,7 +26,7 @@ function App() {
     <div className="min-h-screen bg-gray-50 text-gray-800 font-sans">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-blue-50 shadow-sm z-50">
-        <div className="container mx-auto px-24 py-4">
+        <div className="container mx-auto px-12 py-4">
           <div className="flex justify-between items-center">
             <div className="text-xl font-bold text-blue-950">Ujash Patel</div>
             <div className="hidden md:flex space-x-8">
@@ -51,7 +51,7 @@ function App() {
 
       {/* Hero Section */}
       <header className="pt-32 pb-20 bg-gradient-to-r from-black to-blue-950 text-white">
-        <div className="container mx-auto px-24">
+        <div className="container mx-auto px-12">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-2/3">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Ujash Patel</h1>
@@ -86,7 +86,7 @@ function App() {
 
       {/* About Section */}
       <section id="about" className="py-20 bg-blue-50">
-        <div className="container mx-auto px-24">
+        <div className="container mx-auto px-12">
           <h2 className="text-3xl font-bold mb-12 text-center text-blue-950">About Me</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg mb-6 text-gray-700 leading-relaxed">
@@ -104,7 +104,7 @@ function App() {
 
       {/* Skills Section */}
       <section id="skills" className="py-20 bg-gray-50">
-        <div className="container mx-auto px-24">
+        <div className="container mx-auto px-12">
           <h2 className="text-3xl font-bold mb-12 text-center text-blue-950">Skills & Tech Stack</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -208,55 +208,72 @@ function App() {
 
       {/* Experience Section */}
       <section id="experience" className="py-20 bg-blue-50">
-        <div className="container mx-auto px-24">
+        <div className="container mx-auto px-12">
           <h2 className="text-3xl font-bold mb-12 text-center text-blue-950">Work Experience</h2>
           
           <div className="max-w-4xl mx-auto">
             <div className="relative border-l-2 border-blue-600 pl-8 pb-8">
-              <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-0"></div>
+
+              <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-0"/>
               <div className="mb-8">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                   <h3 className="text-xl font-bold text-gray-800">Senior Android Developer & Team Lead</h3>
-                  <div className="text-teal-600 font-medium">Jan 2020 - Present</div>
+                  <div className="text-teal-600 font-medium">Jan 2023 - Present</div>
                 </div>
-                <div className="text-lg font-medium text-blue-700 mb-4">TechNova Solutions</div>
+                <div className="text-lg font-medium text-blue-700 mb-4">Devine Globe Technologies Pvt. Ltd., Ahmedabad</div>
                 <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-                  <li>Lead a team of 8 Android developers, implementing Agile methodologies and CI/CD practices</li>
-                  <li>Architected and developed a fintech application with over 2 million downloads, using MVVM, Kotlin Coroutines, and Jetpack Compose</li>
-                  <li>Reduced app crash rate by 75% through implementing comprehensive testing strategies</li>
-                  <li>Mentored junior developers and conducted regular code reviews to maintain code quality</li>
-                  <li>Collaborated with product and design teams to define feature requirements and improve user experience</li>
+                  <li>Led a team of four Android developers, applying Agile methodologies and CI/CD practices to streamline development</li>
+                  <li>Designed and developed scalable and high-performance Android applications using MVVM,MVC, Kotlin Coroutines, and Java, ensuring maintainability and efficiency</li>
+                  <li>Collaborated closely with product and design teams to define feature requirements, enhance user experience, and drive product innovation</li>
+                  <li>Successfully integrated multiple payment systems, including Stripe and Squareup, ensuring secure and seamless transactions</li>
+                  <li>Mentored junior developers, conducted regular code reviews, and enforced best coding practices to ensure maintainable and high-quality code</li>
+                  <li>Implemented real-time data synchronization using Socket, enhancing responsiveness and user engagement</li>
                 </ul>
               </div>
               
-              <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-[200px]"></div>
+              <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-[400px]"/>
+              <div className="mb-8">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                  <h3 className="text-xl font-bold text-gray-800">Senior Android Developer</h3>
+                  <div className="text-teal-600 font-medium">Jul 2022 - Jun 2023</div>
+                </div>
+                <div className="text-lg font-medium text-blue-700 mb-4">Unitech IT Solutions Pvt. Ltd., Surat</div>
+                <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
+                  <li>Developed a diverse range of Android applications, including an Astrology app, a Tinder clone, an Uber clone, and an eCommerce app, showcasing versatility in app development</li>
+                  <li>This company has provided me with a solid platform to enhance my technical skills and expertise in mobile app development</li>
+                  <li>I have successfully integrated multiple payment systems, including RazorPay, PayUMoney, and Google Pay, ensuring seamless and secure transactions</li>
+                  <li>Optimized app performance by reducing load times by 40% and memory usage by 30%, enhancing overall efficiency and user experience</li>
+                </ul>
+              </div>
+              
+              <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-[730px]"/>
               <div className="mb-8">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                   <h3 className="text-xl font-bold text-gray-800">Android Developer</h3>
-                  <div className="text-teal-600 font-medium">Mar 2017 - Dec 2019</div>
+                  <div className="text-teal-600 font-medium">Jul 2021 - Jun 2022</div>
                 </div>
-                <div className="text-lg font-medium text-blue-700 mb-4">MobilePro Inc.</div>
+                <div className="text-lg font-medium text-blue-700 mb-4">IVISION INFOTECH  PVT. LTD., Ahmedabad</div>
                 <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-                  <li>Developed and maintained multiple Android applications for e-commerce and social media clients</li>
-                  <li>Implemented MVVM architecture and Room database for offline-first applications</li>
-                  <li>Integrated RESTful APIs and WebSockets for real-time data synchronization</li>
-                  <li>Optimized app performance, reducing load times by 40% and memory usage by 30%</li>
-                  <li>Participated in design sprints and user testing sessions to improve app usability</li>
+                  <li>Assisted in Android application development using Java and XML layouts, contributing to feature implementation and optimization</li>
+                  <li>Designed and implemented UI components following Material Design guidelines, ensuring a modern and user-friendly interface</li>
+                  <li>Developed programs for modification and integration to ensure seamless compatibility with third-party software, enhancing system interoperability</li>
+                  <li>Designed and built a robust application platform to support migration from client-server product lines to enterprise architectures and services</li>
+                  <li>Created Android applications across diverse domains, including a Hospital App, 3D Wallpaper App, Visa Consultant App, and Online Medicine Delivery App, demonstrating adaptability and technical proficiency</li>
                 </ul>
               </div>
-              
-              <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-[400px]"></div>
+
+              <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-[1115px]"/>
               <div>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                  <h3 className="text-xl font-bold text-gray-800">Junior Android Developer</h3>
-                  <div className="text-teal-600 font-medium">Jun 2015 - Feb 2017</div>
+                  <h3 className="text-xl font-bold text-gray-800">Intern & Junior Android Developer</h3>
+                  <div className="text-teal-600 font-medium">Feb 2021 - May 2021</div>
                 </div>
-                <div className="text-lg font-medium text-blue-700 mb-4">AppWorks Studio</div>
+                <div className="text-lg font-medium text-blue-700 mb-4">WEBEARL TECHNOLOGIES PVT. LTD., Ahmedabad</div>
                 <ul className="list-disc list-outside ml-5 space-y-2 text-gray-700">
-                  <li>Assisted in developing Android applications using Java and XML layouts</li>
-                  <li>Implemented UI components following Material Design guidelines</li>
-                  <li>Fixed bugs and improved existing features in legacy applications</li>
-                  <li>Participated in code reviews and team knowledge sharing sessions</li>
+                  <li>I worked as intern in this company from June,2018 to April,2019, It was a great experience working as an intern in this company, I learned a lot about the android architecture and worked over some of the projects as an Android Developer</li>
+                  <li>Designed and developed advanced applications for the Android platform, focusing on scalability and user experience</li>
+                  <li>Focused on bug fixing and performance improvements to optimize application functionality</li>
+                  <li> Performed thorough unit tests on the Android emulator to verify smooth, efficient operation across various devices and environments</li>
                 </ul>
               </div>
             </div>
@@ -266,7 +283,7 @@ function App() {
 
       {/* Projects Section */}
       <section id="projects" className="py-20 bg-gray-50">
-        <div className="container mx-auto px-24">
+        <div className="container mx-auto px-12">
           <h2 className="text-3xl font-bold mb-12 text-center text-blue-950">Featured Projects</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -388,7 +405,7 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gradient-to-r from-black to-blue-950 text-white">
-        <div className="container mx-auto px-24">
+        <div className="container mx-auto px-12">
           <h2 className="text-3xl font-bold mb-12 text-center">Get In Touch</h2>
           
           <div className="max-w-3xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
@@ -428,7 +445,7 @@ function App() {
 
       {/* Footer */}
       <footer className="py-8 bg-gray-900 text-gray-400">
-        <div className="container mx-auto px-24 text-center">
+        <div className="container mx-auto px-12 text-center">
           <p>© {new Date().getFullYear()} Ujash Patel. All rights reserved.</p>
         </div>
       </footer>
